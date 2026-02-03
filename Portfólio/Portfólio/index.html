@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Pedro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+        <nav class="container">
+            <div class="logo">Pedro Henrique Fernandes<span>.</span></div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#home" class="active">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h3>Olá, meu nome é</h3>
+                <h1>Pedro Henrique</h1>
+                <h2 class="typing-text">Eu sou <span id="typewriter"></span></h2>
+                <p>Pensar - Desenvolver - Criar</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/pedro-henrique-fernandes-14a4b72b1/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Pedrowsker" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://wa.me/5541991485512?text=Olá%20Pedro,%20vi%20seu%20portfólio%20e%20gostaria%20de%20conversar!" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=henriquepedromarcos@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+
+                    
+                </div>
+                <a href="#contact" class="btn">Entre em Contato</a>
+            </div>
+            <div class="hero-img">
+                <img src="eu.png" alt="Foto de Perfil">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Pra falar sobre mim, eu não consigo ficar sem citar minha paixão por tecnologia. Aos 14 anos, 
+                        eu mesmo arrumava meus controles de videogame do playstation 2. 
+                        Isso foi crescendo junto com minha paixão por jogos, mais especificamente por jogos de corrida. Anos depois, comecei a participar de competições de automobilismo virtual como "engenheiro" no Iracing. 
+                        Basicamente, minha função era analisar telemetrias do carro, informações da pista e previsões metereológicas. Eu precisava filtrar essas informações e passar da maneira mais limpa 
+                        possivel pro piloto o que ele deveria fazer. Após 2 anos nessa posição, hoje, tenho um cockpit e um volante onde eu mesmo piloto nas corridas. Também tenho um computador. Pesquisei, comprei as peças e montei sozinho. Nele consigo fazer minhas tarefas e estudos com tranquilidade. 
+                        Meu ídolo se chama Ayrton Senna Da Silva. Me inspiro nele no modo de pensar, agir e viver.</p>
+                    <blockquote class="senna-quote">
+                        <p>Se uma pessoa não tem sonhos, não tem razão de viver.</p>
+                        <cite>— Ayrton Senna</cite>
+                    </blockquote>
+                    <div class="about-info">
+                        
+                        <div>
+                            <span>Email:</span> henriquepedromarcos@gmail.com
+                        </div>
+                        <div>
+                            <span>Local:</span> Curitiba, Paraná
+                        </div>
+                    </div>
+                    <a href="Currículo - Pedro Fernandes.pdf" class="btn btn-outline" download>
+                     Baixar CV <i class="fas fa-download"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Minhas Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-card hidden-element">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-card hidden-element">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                </div>
+                <div class="skill-card hidden-element">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card hidden-element">
+                    <i class="devicon-csharp-plain"></i>
+                    <h3>C, C# e C++</h3>
+                </div>
+                <div class="skill-card hidden-element">
+                    <i class="fab fa-node"></i>
+                    <h3>Node.js</h3>
+                </div>
+                
+                <div class="skill-card hidden-element">
+                    <i class="fas fa-database"></i>
+                    <h3>SQL</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Alguns Projetos</h2>
+            <div class="projects-grid">
+        
+
+                <div class="project-card hidden-element">
+                    <div class="project-img">
+                        <div class="project-tags">
+                            <span><i class="fas fa-database"></i> Supabase</span>
+                            <span><i class="fas fa-cloud-upload-alt"></i> Render</span>
+                            <span><i class="fab fa-html5"></i> HTML</span>
+                        </div>
+                    <img src="CARDAPIO.png" alt="Projeto 1">
+                </div>
+                    <div class="project-info">
+                    <h3>Cardápio - Café Fernandes</h3>
+                        <p>Sistema criado para a empresa Café Fernandes onde o gerente consegue adicionar/excluir produtos e o cliente acessa o cardápio via QR Code.</p>
+                        <div class="project-links">
+                             <a href="https://github.com/Pedrowsker/cardapio-backend" target="_blank"><i class="fab fa-github"></i> Código</a>
+                                <a href="https://cardapio-cafe-fernandes.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card hidden-element">
+                    <div class="project-img">
+                        <div class="project-tags">
+                            <span><i class="fab fa-css3-alt"></i> CSS</span>
+                            <span><i class="fab fa-html5"></i> HTML</span>
+                            <span></i> API</span>
+                        </div>
+                    <img src="NASA.png" alt="Projeto 1">
+                </div>
+                    <div class="project-info">
+                    <h3>Fotos - NASA API</h3>
+                        <p>Site onde você pode escolher uma data e ver a foto da NASA tirada no mesmo dia (a partir de 1995). Gerei uma chave para API no site da NASA e tive acesso ao banco de fotos para fazer o site.</p>
+                        <div class="project-links">
+                             <a href="https://github.com/Pedrowsker/NASA-API---Fotos-" target="_blank"><i class="fab fa-github"></i> Código</a>
+                                <a href="https://nasa-api-fotos.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card hidden-element">
+                    <div class="project-img">
+                        <div class="project-tags">
+                            <span><i class=devicon-csharp-plain></i> C</span>
+                        </div>
+                    <img src="POKE.jpg" alt="Projeto 1">
+                </div>
+                    <div class="project-info">
+                    <h3>Batalha de Pokemon - C</h3>
+                        <p>Batalha de Pokemons feita em C. Copie o código do github, cole no compilador online (ou num compilador da sua preferência) e teste o jogo.</p>
+                        <div class="project-links">
+                             <a href="https://github.com/Pedrowsker/Simulador-Batalha-de-Pokemons/tree/main" target="_blank"><i class="fab fa-github"></i> Código</a>
+                                <a href="https://www.programiz.com/online-compiler/7i7kzidcAPwmw" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-alt">
+    <div class="container">
+        <h2 class="section-title">Converse comigo!</h2>
+        
+        <div class="contact-wrapper">
+            <div class="contact-info hidden-element">
+                <h3>Meus Contatos</h3>
+                <p>Escolha a melhor forma de falar comigo. Responderei o mais breve possível!</p>
+                
+                <div class="contact-cards">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=henriquepedromarcos@gmail.com" target="_blank" class="contact-card-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <span>E-mail</span>
+                            <p>henriquepedromarcos@gmail</p>
+                        </div>
+                    </a>
+
+                    <a href="https://wa.me/5541991485512?text=Olá%20Pedro,%20vi%20seu%20portfólio%20e%20gostaria%20de%20conversar!" target="_blank" class="contact-card-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <span>WhatsApp</span>
+                            <p>Clique para conversar</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-container">
+    <form action="https://formspree.io/f/mwvbdnoy" method="POST" class="contact-form hidden-element">
+        <div class="input-group">
+            <input type="text" name="name" placeholder="Seu Nome" required>
+        </div>
+        <div class="input-group">
+            <input type="email" name="email" placeholder="Seu Email" required>
+        </div>
+        <div class="input-group">
+            <textarea name="message" placeholder="Sua Mensagem" rows="5" required></textarea>
+        </div>
+        
+        <input type="text" name="_subject" value="Novo contato do Portfólio!" style="display:none">
+        
+        <button type="submit" class="btn">Enviar Mensagem</button>
+    </form>
+</div>
+        </div>
+    </div>
+</section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Pedro Henrique Fernandes. Todos os direitos reservados.</p>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/pedro-henrique-fernandes-14a4b72b1/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Pedrowsker" target="_blank"><i class="fab fa-github"></i></a>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
